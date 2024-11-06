@@ -211,7 +211,6 @@ void snake_exec() {
 		case RIGHT: snake.body[0].coords.x++; break;
 		}
 
-
 		if (snake.body[0].coords.y < 0)         snake.body[0].coords.y = GRID_H-1;
 		if (snake.body[0].coords.y > GRID_H-1)	snake.body[0].coords.y = 0;
 		if (snake.body[0].coords.x < 0)        	snake.body[0].coords.x = GRID_W-1;
